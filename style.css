@@ -7,57 +7,64 @@
 #menusuperior{
     background-color: #303030;
     width: 1440px;
-    height: 150px;
     text-align: justify;
-    padding-top: 150px;
+    margin: 0;
     color: white;
-    padding-left: 15px;
-    padding-bottom: 30px;
+    padding: 206px 0 144px 62px;
 
 }
 
 #paragrafosuperior{
-    padding-left: 25px;
+    padding-bottom: 20px;
     font-weight: bolder;
     font-size: 45px;
 }
 
-#textofoinferior{
-    padding-left: 20px;
-}
+
 
 #textoinformativo{
     display: grid;
     grid-auto-flow: column;
     background-color: #F9F9F9;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin: 0;
     text-align: justify;
-    padding-left: 13%;
+    row-gap: 99px;
+    padding: 96px 0 67px 171px;
 }
 
 #historia{
 display: grid;
 grid-auto-flow: column;
-padding: 50px 15px 50px 15px;
+margin: 0;
+padding: 82px 54px 92px 77px;
 align-items: center;
 }
 
 #textohistoria{
     text-align: justify;
-    padding-left: 50px;
+    padding-right: 64px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#titulohistoria{
+    font-weight: 500;
+         
 }
 
 #paragrafohistoria{
+    font-weight: 300;
     font-size: 21px;
+    line-height: 30px;
+       
 }
 
 #tituloformulario{
     text-align: center;
-    padding-top: 75px;
+    padding-top: 87px;
     color:#FFFFFF;
     font-size: 34px;
     font-weight: bolder;
+    
 }
 
 #formulario{
@@ -70,36 +77,55 @@ align-items: center;
 }
 
 .baloes{
-    width: 435px;
-    height: 50px;
-    gap: 0px;
-    border-radius: 10px 10px 10px 10px;
-    font-size: 20px;
-    cursor: pointer;
-    
+    width: 508px;
+    height: 72px;
+    top: 1661px;
+    left: 466px;
+    padding-left: 15px;
+    row-gap: 62px;
+    border-radius: 10px;
+    opacity: 0px;
+    font-family: ;
+    color: #0000004D;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+      
+}
+
+#b2 {
+    margin: 48px 0 62px 0;
 }
 
 button{
-    width: 200px;
-    height: 50px;
+    width: 286px;
+    height: 74px;
     color: white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     background-color: #C07212;
     font-weight: bolder;
     font-size: larger;
     margin-left: 15%;
     margin-bottom: 50px;
     cursor: pointer;
+    top: 1955px;
+    left: 577px;
 }
+    
 
 button:hover{
     background-color: #c2771c;
     font-weight: bolder;
-    transform:translateY(-15px);
-    box-shadow: #edb27a 0px 10px 20px -10px ;
-    border: 0px;
-    transition-duration: 750ms;
-    transition-delay: 100ms;
-    
-
+    transform: translateY(-10px);
+    transform: translateX(-5);
+    box-shadow: #edb27a -10px 15px 15px 5px;
+    transition-duration: 1s;
+    transition-delay: 40ms;
+    text-align: center;
 }
+
